@@ -1,6 +1,6 @@
 {
 	"name": "@juicesharp/rpiv-ask-user-question",
-	"version": "2.6.2",
+	"version": "2.6.3",
 	"description": "Pi extension. A structured questionnaire the model can put to you when it would otherwise guess, with typed options instead of free-form replies.",
 	"keywords": [
 		"pi-package",
@@ -34,6 +34,8 @@
 		"rpc-fallback.ts",
 		"config.ts",
 		"events.ts",
+		"bootstrap.ts",
+		"lazy-extension.ts",
 		"index.ts",
 		"reconcile.ts",
 		"LICENSE",
@@ -81,7 +83,7 @@
 	"pi": {
 		"image": "https://raw.githubusercontent.com/juicesharp/rpiv-mono/main/packages/rpiv-ask-user-question/docs/cover.png",
 		"extensions": [
-			"./index.ts"
+			"./bootstrap.ts"
 		]
 	},
 	"peerDependencies": {
