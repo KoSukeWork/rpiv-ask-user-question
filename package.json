@@ -78,8 +78,7 @@
     "view/stateful-view.ts",
     "view/tab-components.ts",
     "view/tab-content-strategy.ts",
-    "vendor/rpiv-config/",
-    "dist"
+    "vendor/rpiv-config/"
   ],
   "pi": {
     "image": "https://raw.githubusercontent.com/juicesharp/rpiv-mono/main/packages/rpiv-ask-user-question/docs/cover.png",
