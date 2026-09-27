@@ -1,8 +1,14 @@
 {
   "remote": "https://github.com/juicesharp/rpiv-mono.git",
-  "commit": "c6e15dbdf962185db574413f77cc50be43e65791",
+  "commit": "d74b1c99830a565f3df3f37e0a36616d17ffc574",
   "mappings": [
-    {"source": "packages/rpiv-ask-user-question", "destination": "."},
-    {"source": "packages/rpiv-config", "destination": "vendor/rpiv-config"}
+    {
+      "source": "packages/rpiv-ask-user-question",
+      "destination": "."
+    },
+    {
+      "source": "packages/rpiv-config",
+      "destination": "vendor/rpiv-config"
+    }
   ]
 }
